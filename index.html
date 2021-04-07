@@ -1,0 +1,99 @@
+<!-- Bagus Susilo - 11119006 -->
+<html>
+    <head>
+        <title>Tugas 1 Pemrograman Web Lanjut</title>
+        <style>
+            .form{
+                margin: auto;
+                width: 400px;
+                padding: 20px;
+                border: 1px solid black;
+                background: lightblue;
+            }
+            .table{
+                margin: auto;
+                margin-top: 20px;
+                width: 250px;
+                padding: 10px;
+                border: 1px solid black;
+                background: lightblue;
+            }
+        </style>
+    </head>
+    <body bgcolor="grey">  
+        <div class="form">
+        <h1><center>Formulir Pendaftaran</center></h1>
+        <form action="" method="GET">
+            <table>
+                <tr>
+                    <td>Nama depan</td>
+                    <td><input type="text" name="namadepan"></td>
+                </tr>
+                <tr>
+                    <td>Nama Belakang</td>
+                    <td><input type="text" name="namabelakang"></td>
+                </tr>
+                <tr>
+                    <td>Username</td>
+                    <td><input type="text" name="username"></td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td><input type="password" name="password"></td>
+                </tr>
+                <tr>
+                    <td>Alamat</td>
+                    <td><textarea name="alamat" cols="22" rows="5"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Tanggal Lahir</td>
+                    <td><input type="date" name="tanggallahir"></td>
+                </tr>
+                <tr>
+                    <td>Jenis Kelamin</td>
+                    <td><input type="radio" name="jeniskelamin" value="Pria">Pria
+                    <br>
+                    <input type="radio" name="jeniskelamin" value="Wanita">Wanita</td>
+                </tr>
+                <tr>
+                    <td>Upload Foto</td>
+                    <td><input type="file" name="foto"></td>
+                </tr>
+                <tr>
+                    <td><button type="submit">Submit</button></td>
+                    <td><button type="reset">Reset</button></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <div class="table">
+        <h4><center>Tabel Nilai Semester Mahasiswa</center></h4>
+        <table border="1" cellspacing="0" cellpadding="10">
+            <tr>
+                <th bgcolor="yellow"><b>Semester</b></th>
+                <th bgcolor="yellow"><b>IPS</b></th>
+            </tr>
+            <tr>
+                <td>Semester1</td>
+                <td>3.4</td>
+            </tr>
+            <tr>
+                <td>Semester2</td>
+                <td>3.6</td>
+            </tr>
+            <tr>
+                <td>Semester3</td>
+                <td>3.7</td>
+            </tr>
+            <tr>
+                <td>Semester4</td>
+                <td>3.5</td>
+            </tr>
+            <tr>
+                <td>Nilai IPK</td>
+                <td>3.6</td>
+            </tr>
+        </table>
+    </div>
+    </body>
+</html>
